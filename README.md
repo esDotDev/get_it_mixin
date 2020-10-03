@@ -1,6 +1,6 @@
 # get_it_mixin
 
-This package offers a set of mixin types that makes it extremely easy to bind your views to the data stored in GetIt.
+This package offers a set of mixin types that make it very easy to bind your Widgets views to the data stored in GetIt.
 
 >When I write of binding, I mean a mechanism that will automatically rebuild a widget that if data it depends on changes 
 
