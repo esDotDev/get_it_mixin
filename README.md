@@ -45,7 +45,7 @@ With the Model in place we can explore how to access it in various ways using `g
 
 When you add the `GetItMixin` to your `StatelessWidget` you get some new functions that you can use inside your Widgets. 
 
-The easiest ones are `get()` and `getX()` which simmply lookup data from `GetIt` similar to calling `GetIt.I<Type>()`.
+The easiest ones are `get()` and `getX()` which simply lookup data from `GetIt` similar to calling `GetIt.I<Type>()`.
 
 ```Dart
 class TestStateLessWidget extends StatelessWidget with GetItMixin {
