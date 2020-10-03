@@ -4,7 +4,7 @@ This package offers a set of mixin types that make it very easy to bind your Wid
 
 >When I write of binding, I mean a mechanism that will automatically rebuild a widget that if data it depends on changes 
 
-Several users have been asking for data binding support similar to that offered by `provider`. At the same time, I became quite intrigued by `flutter_hooks` from [Remi Rousselet](https://github.com/rrousselGit/), and started to think about how I could create something similar for `GetIt`. **I'm very thankful for Remi's work. I took more than one inspiration from his code.**
+Several users have been asking for data binding support similar to that offered by `provider`. At the same time I found myself quite intrigued by `flutter_hooks` from [Remi Rousselet](https://github.com/rrousselGit/), and started to think about how I could create something similar for `GetIt`. **I'm very thankful for Remi's work. I took more than one inspiration from his code.**
 
 In order to keep `GetIt` free of Flutter dependencies I chose to write a separate package using mixins.
 
