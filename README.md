@@ -154,7 +154,7 @@ If you want to rebuild whenever Model triggers `notifyListener` you can simple c
 final model = watchOnly((Model x) => x);
 ```
 
-For more granular rebuilds `watchOnly()` lets you define which a property you want to observe and will only rebuild when the value changes. `watchXonly()` does the same but for nested `Listenables`.
+For more granular rebuilds `watchOnly()` lets you define a property you'd like to observe and only triggers a rebuild when the properties value changes. `watchXonly()` does the same but for nested `Listenables`.
 
 ```Dart
 class TestStateLessWidget1 extends StatelessWidget with GetItMixin {
